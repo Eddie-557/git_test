@@ -126,19 +126,47 @@
 //     alert("We hope that this page looks ok!");
 // }
 
-let a = +prompt('a?', '');
-switch (a) {
-    case 0:
-        alert(0);        
-        break;
-    case 1:
-        alert(1);
-        break;
-    case 2:
-    case 3:
-        alert('2,3');
-        break;
+// let a = +prompt('a?', '');
+// switch (a) {
+//     case 0:
+//         alert(0);        
+//         break;
+//     case 1:
+//         alert(1);
+//         break;
+//     case 2:
+//     case 3:
+//         alert('2,3');
+//         break;
 
-    default:
-        break;
-}
+//     default:
+//         break;
+// }
+
+// function checkAge(age) {
+//   return(age > 18) ? true : confirm('Did parents allow you?');
+// };
+
+// console.log(checkAge(19));
+
+// function min(a, b) {
+//     if (a > b) {
+//         return b;
+//     } else if (b > a) {
+//         return a;
+//     } else {
+//         return(confirm("Please enter different values for a and b"));
+//     };
+// };
+
+// function min(a, b) {
+//     return(a > b) ? b : a;
+// }
+
+// console.log(min(3322, 23));
+
+// function pow(x, n) {
+//     let result = x ** n;
+//     return result;
+// }
+// console.log(pow(12,100))
